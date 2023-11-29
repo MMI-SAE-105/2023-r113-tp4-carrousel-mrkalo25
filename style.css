@@ -71,10 +71,7 @@ img {
 }
 
 
-/* en vrac :
-  1rem  gap 
- list-style none 
-*/
+
 .caroussel_liste-liens {
     /* aligne horizontalement les enfants */
     display: flex;
@@ -91,8 +88,21 @@ img {
 
 }
 
-.actif {
-    background-color: rgb(166, 164, 164);
+.caroussel_lien.actif {
+    background-color: rgb(12, 9, 19)
     
+}
 
+.caroussel_lien {
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    max-width: 500px;
 }
