@@ -59,6 +59,7 @@ img {
     display: grid;
     place-content: center;
     color: #fff;
+    
 }
 
 .carrousel_btn-avant {
@@ -89,3 +90,4 @@ img {
     gap: 1rem;
 
 }
+
