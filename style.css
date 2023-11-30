@@ -119,5 +119,10 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
 
-}
+ }
+
+ .caroussel_lien:hover {
+    background-color: rgb(12, 9, 19);
+    color: #fff;
+    text-decoration: none;
     
