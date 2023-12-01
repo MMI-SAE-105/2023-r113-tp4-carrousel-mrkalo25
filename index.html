@@ -29,34 +29,34 @@
         <div class="carrousel_parent-ecrans" x-ref="parent"
          @scroll.debounce.250ms.passive="hrefCourant = '#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id"
             >
-            <div id="ecran-1" class="carrousel_ecran">
+            <div id="ecran-1" class="carrousel_ecran" >
                 <figure>
-                    <img src="https://picsum.photos/seed/1/500/300" alt="image ecran 1">
-                    <figcaption>Une ancienne ville</figcaption>
+                    <img class="image" src="https://picsum.photos/seed/1/500/300" alt="image ecran 1">
+                    <figcaption class="text">Une ancienne ville</figcaption>
                 </figure>
             </div>
             <div id="ecran-2" class="carrousel_ecran">
                 <figure>
-                    <img src="https://picsum.photos/seed/2/500/300" alt="image ecran 2">
-                    <figcaption>L'espace de travail idéal</figcaption>
+                    <img class="image" src="https://picsum.photos/seed/2/500/300" alt="image ecran 2">
+                    <figcaption class="text">L'espace de travail idéal</figcaption>
                 </figure>
             </div>
             <div id="ecran-3" class="carrousel_ecran">
                 <figure>
-                    <img src="https://picsum.photos/seed/3/500/300" alt="image ecran 3">
-                    <figcaption>La nature dans toute sa splendeur</figcaption>
+                    <img class="image" src="https://picsum.photos/seed/3/500/300" alt="image ecran 3">
+                    <figcaption class="text">La nature dans toute sa splendeur</figcaption>
                 </figure>
             </div>
             <div id="ecran-4" class="carrousel_ecran">
                 <figure>
-                    <img src="https://picsum.photos/seed/4/500/300" alt="image ecran 4">
-                    <figcaption>Des fraises de bonne qualité</figcaption>
+                    <img class="image" src="https://picsum.photos/seed/4/500/300" alt="image ecran 4">
+                    <figcaption class="text">Des fraises de bonne qualité</figcaption>
                 </figure>
             </div>
             <div id="ecran-5" class="carrousel_ecran">
                 <figure>
                     <img src="https://picsum.photos/seed/5/500/300" alt="image ecran 5">
-                    <figcaption>Les fonds marins</figcaption>
+                    <figcaption class="text">Les fonds marins</figcaption>
                 </figure>
             </div>
         </div>
